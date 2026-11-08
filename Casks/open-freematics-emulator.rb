@@ -1,9 +1,9 @@
 cask "open-freematics-emulator" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.1"
-  sha256 arm:   "c81667801c2617a9667c94b4599f771e08d62ca384f66a71c44bade5a1753fca",
-         intel: "7a428f193ea2b9a0632d0f1a0f9227a3f0b9d563ded3e3331ac0e2137e904c9f"
+  version "1.0.2"
+  sha256 arm:   "7e53e4ba220c2a5a8a1b1a0c29ad744e35eba0d2fdd619518152684ec775767e",
+         intel: "557ead87b2e1934a95be9271a8daab77f03241e32a8bd6cd04fe30593276617d"
 
   url "https://github.com/ETSoftwareStudio/open-freematics-emulator/releases/download/v#{version}/open-freematics-emulator-#{version}-mac-#{arch}.dmg"
   name "Open Freematics Emulator"
