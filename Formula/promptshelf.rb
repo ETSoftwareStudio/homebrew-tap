@@ -2,24 +2,24 @@
 class Promptshelf < Formula
   desc "Save, fill and share prompts; installs the shelf command"
   homepage "https://github.com/ETSoftwareStudio/promptshelf"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ETSoftwareStudio/promptshelf/releases/download/v0.2.1/promptshelf-v0.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "31547e077e8377f583bd25350c1e88ed695aa1c31aa8af83cd8c28d0dce3b9f0"
+      url "https://github.com/ETSoftwareStudio/promptshelf/releases/download/v0.3.0/promptshelf-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "faadc4fca860cb4ac072f85c83478ea3603772a7e43c44e00e71ebf9c1cb1b81"
     end
     on_intel do
-      url "https://github.com/ETSoftwareStudio/promptshelf/releases/download/v0.2.1/promptshelf-v0.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "08590cf2421e7f62368581d4381e297bf16c23ac06d0e42b21a8280b3653cb2e"
+      url "https://github.com/ETSoftwareStudio/promptshelf/releases/download/v0.3.0/promptshelf-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "6726c0234bc6d36067b9da18d3e8ae7522f9694bf8f4e5c08cf4dc0752a2364d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ETSoftwareStudio/promptshelf/releases/download/v0.2.1/promptshelf-v0.2.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c03c0eb207890fe65ef8e4214237fa487f04016433a33a0a5ee8b1b00a77c8b3"
+      url "https://github.com/ETSoftwareStudio/promptshelf/releases/download/v0.3.0/promptshelf-v0.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "95d4b39c3ba03d85bf9b536eff83977f4f81aa30645e7b23d5652732e7635515"
     end
   end
 
